@@ -23,3 +23,7 @@ const oneStr = "  Japan   "
 const newStr1 = oneStr.trim(oneStr)
 console.log(newStr1);
 
+const url = "https://ajay%20deshmukh.com"
+console.log(url.replace('%20', '-' ))
+console.log(url.includes("ajay"))
+console.log(url.split('%20'));
